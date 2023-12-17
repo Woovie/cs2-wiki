@@ -1,6 +1,6 @@
 # Contributing
 
-General notes and information about contributing to this wiki.
+We encourage the community to submit changes to this documentation. Documentation is a tedious process and often under appreciated for the effort. Any help you can provide is greatly appreciated!
 
 ## Configuration
 

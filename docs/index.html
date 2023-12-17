@@ -7,10 +7,6 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
-
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 </head>
 <body>
@@ -18,10 +14,9 @@
   <script>
     window.$docsify = {
       name: 'Cities Skylines 2 Modding Wiki',
-      repo: 'https://github.com/Woovie/cs2-wiki',
       loadSidebar: true,
       plugins: [
-        EditOnGithubPlugin.create(docBase, docEditBase, title)
+        EditOnGithubPlugin.create('https://github.com/Woovie/cs2-wiki/blob/docsify-refactor/docs', null, 'Edit on GitHub'),
       ],
       homepage: 'index.md', // TODO This is not working 
       auto2top: true,
@@ -31,5 +26,10 @@
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  
 </body>
 </html>

@@ -1,3 +1,2 @@
 - Getting Started
-  - [Welcome Page](index.md)
   - [Contributing](contributing.md)
