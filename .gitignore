@@ -1,1 +1,5 @@
-book
+*.log
+# From docsify
+/docs/preview.html
+.frontmatter
+.vscode
