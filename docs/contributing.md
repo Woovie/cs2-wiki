@@ -14,11 +14,20 @@ We are using the following Docsify plugins:
 - Pagination
 - [Edit on GitHub](https://github.com/njleonzhang/docsify-edit-on-github)
 
-> Note: If you cannot find the link above, it is likely that [the plugin is on the Docsify Plugins page](https://docsify.js.org/#/plugins) without a link to any specific project.
+> Note: Any plugin above without a hyperlink can be found on [the Docsify Plugins page](https://docsify.js.org/#/plugins).
 
 ## Standards
 
-Please follow these basic formatting 
+Please follow these basic formatting requests:
+
+- Use spellcheck
+- Keep content specific to Cities: Skylines 2 modding
+- Do not upload any media you do not own the copyright for
+- All submissions are treated as licensed under the same license we use for this entire wiki
+- GitHub links should reference specific commits, not a link to a specific branch. This ensures that the URL will continue to work should the file, branch, etc. end up no longer existing or get moved
+  - Example:
+    - Good: `https://github.com/optimus-code/Cities2Modding/blob/663efb15ac94de76e80b18a9d89eb3c1476279db/ExampleMod/MonoBehaviours/MusicLoader.cs`
+    - Bad: `https://github.com/optimus-code/Cities2Modding/blob/main/ExampleMod/MonoBehaviours/MusicLoader.cs`
 
 ## Sidebar
 

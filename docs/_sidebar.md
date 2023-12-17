@@ -1,2 +1,11 @@
 - Getting Started
   - [Contributing](contributing.md)
+- [Installing Mods](installing-mods.md)
+- Creating Mods
+  - Development Environment Setup
+  - Fundamentals
+  - Publishing
+- Map Creation
+  - Terrain Creation
+  - Water
+  - Edge Connections
